@@ -28,7 +28,8 @@
   
     
   
-  <meta name="description" content="eASV-pipeline-for-515Y-926R ***UPDATE July 2019 - The purpose of these additional scripts is to easily compare the classifications at different confidence levels all in one file known as a “Lookup Table”. This is particularly useful in instances where the default classification classifies the eASV as “Bacteria”, but a less stringent confidence level might classify that eASV further as actually a Mitochondrial sequence. One of the options of the qiime feature-classifier classify-sklearn step is to designate the &ndash;p-confidence threshold, which limits the depth for taxonomic assignments.">
+  <meta name="description" content="UPDATE July 2019 - The purpose of these additional scripts is to easily compare the classifications at different confidence levels all in one file known as a “Lookup Table”. This is particularly useful in instances where the default classification classifies the eASV as “Bacteria”, but a less stringent confidence level might classify that eASV further as actually a Mitochondrial sequence.
+One of the options of the qiime feature-classifier classify-sklearn step is to designate the &ndash;p-confidence threshold, which limits the depth for taxonomic assignments.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://fuhrmanlab.github.io/post/515y-926r-qiime2-pipeline/">
@@ -110,7 +111,8 @@
   <meta property="og:site_name" content="Fuhrman Lab Website - Latest Protocols and News">
   <meta property="og:url" content="https://fuhrmanlab.github.io/post/515y-926r-qiime2-pipeline/">
   <meta property="og:title" content="qiime2 pipeline for 515Y/926R primers | Fuhrman Lab Website - Latest Protocols and News">
-  <meta property="og:description" content="eASV-pipeline-for-515Y-926R ***UPDATE July 2019 - The purpose of these additional scripts is to easily compare the classifications at different confidence levels all in one file known as a “Lookup Table”. This is particularly useful in instances where the default classification classifies the eASV as “Bacteria”, but a less stringent confidence level might classify that eASV further as actually a Mitochondrial sequence. One of the options of the qiime feature-classifier classify-sklearn step is to designate the &ndash;p-confidence threshold, which limits the depth for taxonomic assignments."><meta property="og:image" content="https://fuhrmanlab.github.io/img/icon-192.png">
+  <meta property="og:description" content="UPDATE July 2019 - The purpose of these additional scripts is to easily compare the classifications at different confidence levels all in one file known as a “Lookup Table”. This is particularly useful in instances where the default classification classifies the eASV as “Bacteria”, but a less stringent confidence level might classify that eASV further as actually a Mitochondrial sequence.
+One of the options of the qiime feature-classifier classify-sklearn step is to designate the &ndash;p-confidence threshold, which limits the depth for taxonomic assignments."><meta property="og:image" content="https://fuhrmanlab.github.io/img/icon-192.png">
   <meta property="twitter:image" content="https://fuhrmanlab.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2019-07-29T00:00:00&#43;00:00">
@@ -474,29 +476,28 @@
   <div class="article-container">
 
     <div class="article-style" itemprop="articleBody">
-      
+      <p><strong>UPDATE July 2019 - The purpose of these additional scripts is to easily compare the classifications at different confidence levels all in one file known as a “Lookup Table”. This is particularly useful in instances where the default classification classifies the eASV as “Bacteria”, but a less stringent confidence level might classify that eASV further as actually a Mitochondrial sequence.</strong></p>
 
-<h1 id="easv-pipeline-for-515y-926r">eASV-pipeline-for-515Y-926R</h1>
+<p><strong>One of the options of the qiime feature-classifier classify-sklearn step is to designate the &ndash;p-confidence threshold, which limits the depth for taxonomic assignments. The default setting is 0.7, indicating that the classifier is at least 70% confident in its classification. New scripts were added to the pipeline to re-run the classification step at less stringent confidence levels (0.5, 0.3, and -1). A &ndash;p-confidence value set at -1 disables the confidence calculation.</strong></p>
 
-<p>***UPDATE July 2019 - The purpose of these additional scripts is to easily compare the classifications at different confidence levels all in one file known as a “Lookup Table”. This is particularly useful in instances where the default classification classifies the eASV as “Bacteria”, but a less stringent confidence level might classify that eASV further as actually a Mitochondrial sequence.
-One of the options of the qiime feature-classifier classify-sklearn step is to designate the &ndash;p-confidence threshold, which limits the depth for taxonomic assignments. The default setting is 0.7, indicating that the classifier is at least 70% confident in its classification. New scripts were added to the pipeline to re-run the classification step at less stringent confidence levels (0.5, 0.3, and -1). A &ndash;p-confidence value set at -1 disables the confidence calculation.
-*EUK Scripts: E19-E22
-*PROK Scripts: P14-P17
-<em>For the DADA2 version of the pipeline only</em></p>
+<ul>
+<li>EUK Scripts: E19-E22</li>
+<li>PROK Scripts: P14-P17</li>
+<li>For the DADA2 version of the pipeline only*</li>
+</ul>
 
-<p><strong><em>UPDATE March 2019 - New functionality has been added for automatically slicing and dicing eASV tables according to various pre-set categories (e.g. 16S sequences without chloroplasts or mitochondria, 18S sequences with Metazoan sequences removed; see below for exact categories), and automatically making qiime2 barplots for each of these categories. Also, the repository was cleaned up so that the previous (confusing) way of cloning different branches is no longer used - now you just have clone the master branch and you will find all 3 pipeline variants stored in separate folders.</em></strong></p>
+<p><strong>UPDATE March 2019 - New functionality has been added for automatically slicing and dicing eASV tables according to various pre-set categories (e.g. 16S sequences without chloroplasts or mitochondria, 18S sequences with Metazoan sequences removed; see below for exact categories), and automatically making qiime2 barplots for each of these categories. Also, the repository was cleaned up so that the previous (confusing) way of cloning different branches is no longer used - now you just have clone the master branch and you will find all 3 pipeline variants stored in separate folders.</strong></p>
 
 <p>This is a collection of scripts for analyzing mixed 16S/18S amplicon sequences using bbtools, qiime2, DADA2, Deblur, biom, BLAST, and other tools. They are wrappers of a wrapper (qiime2), and are designed to make the in silico workflow for the 515Y/926R primer set easier, reproducible, and more accessible.</p>
 
 <p>The main difference between this pipeline and standard workflows is that it contains an initial 16S/18S splitting step, which is accomplished using bbsplit against curated 16S / 18S databases derived from SILVA132 and PR2. Other notable differences include:</p>
 
-<p>*Semi-automated methods to validate the performance of your denoising algorithm with the Fuhrman Lab mock communities</p>
-
-<p>*20% mismatches allowed in the primer removal step, meaning taxa that are amplified despite primer mismatches will be retained in the results</p>
-
-<p>*An automated workflow for processing 18S sequences that do not overlap</p>
-
-<p>*Automatic classification/splitting as noted above</p>
+<ul>
+<li>Semi-automated methods to validate the performance of your denoising algorithm with the Fuhrman Lab mock communities</li>
+<li>20% mismatches allowed in the primer removal step, meaning taxa that are amplified despite primer mismatches will be retained in the results</li>
+<li>An automated workflow for processing 18S sequences that do not overlap</li>
+<li>Automatic classification/splitting as noted above</li>
+</ul>
 
 <p>Scripts are written with python or bash, and are designed for the pre-set conda environments on kraken.usc.edu. However, they could easily be used elsewhere by installing the conda environment for qiime2 specified in the scripts (currently qiime2-2018.8) and a separate environment (called bbmap-env) that has Brian Bushnell&rsquo;s Bestus Bioinformaticus Tools installed.</p>
 
@@ -536,7 +537,7 @@ One of the options of the qiime feature-classifier classify-sklearn step is to d
 
 <p>Then edit the splitting script (&ldquo;01-sort-16S-18S-bbsplit.sh&rdquo;) so that it points to the full path of the directory specified above in the path part of the command.</p>
 
-<p><em>CLASSIFIERS (Trained on the 515Y/926R primer pair)</em></p>
+<p><strong>CLASSIFIERS (Trained on the 515Y/926R primer pair)</strong></p>
 
 <p>The default taxonomy we use is SILVA132. A pre-trained classifier for the 515Y/926R primer pair can be found here (just point the scripts to where you downloaded the file on your server/laptop):</p>
 
@@ -564,37 +565,41 @@ One of the options of the qiime feature-classifier classify-sklearn step is to d
 
 <p>Current automatic splitting/plotting capabilities (a tsv table and graph will be produced for each of these categories):</p>
 
-<p>16S (all filtering steps based on SILVA132 classifications, chloroplasts always classified with PhytoRef):</p>
+<p><strong>16S</strong> (all filtering steps based on SILVA132 classifications, chloroplasts always classified with PhytoRef):</p>
 
-<p>-16s excluding cyanobacteria, chloroplasts and mitochondria</p>
+<ul>
+<li><p>16s excluding cyanobacteria, chloroplasts and mitochondria</p></li>
 
-<p>-16S excluding Archaea</p>
+<li><p>16S excluding Archaea</p></li>
 
-<p>-Archaea only</p>
+<li><p>Archaea only</p></li>
 
-<p>-All prokaryotes (excluding chloroplasts/mitochondria)</p>
+<li><p>All prokaryotes (excluding chloroplasts/mitochondria)</p></li>
 
-<p>-16S with mitochondria subtracted</p>
+<li><p>16S with mitochondria subtracted</p></li>
 
-<p>-16S with chloroplasts subtracted</p>
+<li><p>16S with chloroplasts subtracted</p></li>
 
-<p>-Only cyanobacteria</p>
+<li><p>Only cyanobacteria</p></li>
 
-<p>-Cyanobacteria + chloroplasts</p>
+<li><p>Cyanobacteria + chloroplasts</p></li>
 
-<p>-Only chloroplasts</p>
+<li><p>Only chloroplasts</p></li>
 
-<p>-Only mitochondria</p>
+<li><p>Only mitochondria</p></li>
+</ul>
 
-<p>18S:</p>
+<p><strong>18S</strong>:</p>
 
-<p>-All 18S sequences, classified using SILVA132</p>
+<ul>
+<li><p>All 18S sequences, classified using SILVA132</p></li>
 
-<p>-All 18S sequences, classified using PR2</p>
+<li><p>All 18S sequences, classified using PR2</p></li>
 
-<p>-18S sequences with Metazoa subtracted according to SILVA132 classifications</p>
+<li><p>18S sequences with Metazoa subtracted according to SILVA132 classifications</p></li>
 
-<p>-18S sequences with Metazoa subtracted according to PR2 classifications</p>
+<li><p>18S sequences with Metazoa subtracted according to PR2 classifications</p></li>
+</ul>
 
     </div>
 
