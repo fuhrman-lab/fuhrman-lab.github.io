@@ -6,9 +6,19 @@
     <description>Recent content in Authors on Fuhrman Lab Website - Latest Protocols and News</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
+    <lastBuildDate>Mon, 29 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://fuhrmanlab.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title></title>
+      <link>https://fuhrmanlab.github.io/authors/jesse/</link>
+      <pubDate>Mon, 29 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://fuhrmanlab.github.io/authors/jesse/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title></title>
@@ -20,15 +30,6 @@
 
 &lt;p&gt;This website is a central repository for sharing active protocols, both within the Fuhrman lab and to the oustide world. Of particular note are our protocols for the sequencing of PCR amplicons with &lt;em&gt;truly universal&lt;/em&gt; SSU rRNA primers (515Y/926R) that generate amplicons from both 16S and 18S sequences. In practical terms, this means that from a single DNA extract, one can profile the cellular community from &lt;strong&gt;A&lt;/strong&gt;rchaea to meta&lt;strong&gt;Z&lt;/strong&gt;oa. We have also developed a set of scripts that use qiime2 to process the data in a manner specific to these universal primers. In brief, the pipeline splits 16S and 18S informatically (using bbsplit) then denoises with either DADA2 or deblur, then slices and dices the data according to several preset categories. We have also recently included ways to get more information on poorly classified sequences by tweaking parameters in the classification algorithm. The whole pipleine is meant to simplify the process of using qiime2 so that the user has more time to do the important interpretation work that comes after the data have been processed.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://fuhrmanlab.github.io/authors/jesse/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://fuhrmanlab.github.io/authors/jesse/</guid>
-      <description></description>
     </item>
     
   </channel>
