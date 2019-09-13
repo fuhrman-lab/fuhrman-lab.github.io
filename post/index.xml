@@ -6,10 +6,63 @@
     <description>Recent content in Posts on Fuhrman Lab Website - Latest Protocols and News</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 29 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://fuhrmanlab.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Adding Content (e.g. protocols/blog posts) to the Lab Website</title>
+      <link>https://fuhrmanlab.github.io/post/adding_web_content/</link>
+      <pubDate>Fri, 13 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://fuhrmanlab.github.io/post/adding_web_content/</guid>
+      <description>
+
+&lt;h2 id=&#34;preamble&#34;&gt;Preamble:&lt;/h2&gt;
+
+&lt;p&gt;At first, this may seem like an excessively complicated way of updating a website, but it actually will teach you how to use github. By the end of it you should be able to clone, fork, and merge like a pro!&lt;/p&gt;
+
+&lt;h2 id=&#34;dependencies&#34;&gt;Dependencies:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Github (for pushing, pulling, etc) - make sure you&amp;rsquo;re also a member of &amp;ldquo;fuhrman-lab&amp;rdquo; group on github&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; (for generating a html website from markdown content)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;instructions&#34;&gt;Instructions:&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Go to &lt;a href=&#34;https://github.com&#34; target=&#34;_blank&#34;&gt;github&lt;/a&gt;, make sure you&amp;rsquo;re logged in.&lt;/li&gt;
+&lt;li&gt;Once you&amp;rsquo;re logged in, go to our &amp;ldquo;group&amp;rdquo; account &lt;a href=&#34;https://github.com/fuhrman-lab&#34; target=&#34;_blank&#34;&gt;https://github.com/fuhrman-lab&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Find the &amp;ldquo;academic kickstart&amp;rdquo; repository and click &amp;ldquo;fork&amp;rdquo; at the top of the page. (This creates a copy of this repository that you can work and play with locally on your own machine. You can make any changes you want, test to see how they&amp;rsquo;ll look on the website, then once you&amp;rsquo;re satisfied we&amp;rsquo;ll &amp;ldquo;pull&amp;rdquo; those changes back into the &amp;ldquo;master&amp;rdquo; branch of our group account.)&lt;/li&gt;
+&lt;li&gt;It&amp;rsquo;s probably a good idea to go to &amp;ldquo;settings&amp;rdquo; and rename it to something like &amp;ldquo;academic-kickstart-fuhrmanlab&amp;rdquo; because you may also want to use the same framework to create your own website later on and it&amp;rsquo;s confusing if they&amp;rsquo;re named something similar like &amp;ldquo;academic-kickstart-1&amp;rdquo; and &amp;ldquo;academic-kickstart&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;Now that you&amp;rsquo;ve got this on your account, clone it locally:
+e.g. &lt;code&gt;git clone git@github.com:fuhrman-lab/academic-kickstart.git Fuhrman_Lab_Website/&lt;/code&gt; #Make sure to use the ssh cloning option (not https), if not you&amp;rsquo;ll have to change it later to use ssh authentication*&lt;/li&gt;
+&lt;li&gt;Enter the folder and run the following command:
+&lt;code&gt;git submodule update --init --recursive&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Test to make sure hugo is working. Run the following &lt;strong&gt;from the base directory of your repository&lt;/strong&gt;:
+&lt;code&gt;hugo&lt;/code&gt; #should create a &amp;ldquo;public&amp;rdquo; directory. This is basically taking all the markdown etc and making it into html
+&lt;code&gt;hugo serve&lt;/code&gt;
+The latter command will set up a local webserver which should listen for changes. So you can play around and then switch to your browser to see how the changes look. Just open the website address your terminal provides. You can keep this terminal open while you edit other files.&lt;/li&gt;
+&lt;li&gt;The first thing you want to set up is a profile for yourself as an author. Go to &lt;code&gt;content/authors&lt;/code&gt; and create a new folder for yourself. You can just copy someone else&amp;rsquo;s folder as follows:
+&lt;code&gt;cp -r jesse yourname&lt;/code&gt;
+Then just go in and edit the content in the markdown (.md) file. You can replace avatar.jpg with your picture if you want. Add your twitter handle, google scholar, github etc and a small blurb about yourself. That way, when you post something there will be a profile associated with it and people can read about your research etc.&lt;/li&gt;
+&lt;li&gt;Now we can add some content! To make it easier for others in the lab to follow, please provide a blog post-like description of the background behind the protocol as well as a link to a PDF or website where the protocol is stored. To make a new post, just copy one of the existing folders in the same way you ddid for your profile, and edit the markdown to create your post. PDFs and other files can be stored in this folder too, and I like to put them in a &amp;lsquo;files&amp;rsquo; subfolder to keep it organized. It then can be linked in your post as follows: &lt;code&gt;[Text you want to show](files/testing.pdf)&lt;/code&gt;, which will render like this: &lt;a href=&#34;files/testing.pdf&#34; target=&#34;_blank&#34;&gt;Text you want to show&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Take a look at your post in your local browser instance, and edit until you think it looks good!&lt;/li&gt;
+&lt;li&gt;Now we&amp;rsquo;re ready to push the changed content to the remote repository. What we&amp;rsquo;re going to push is the markdown content but not the hugo-generated website in the &amp;ldquo;public&amp;rdquo; folder. In academic-kickstart this is already taken care of by the addition of a .gitignore file. Take a look at it yourself to see how it works - this will probably come in handy in your future work.&lt;/li&gt;
+&lt;li&gt;OK so we gotta do three things: add, commit and push, as follows:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;code&gt;git add .&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;git commit -m &amp;quot;Adding instructions for updating website&amp;quot;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;git push origin master&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;* e.g. &lt;code&gt;git remote set-url origin git@github.com:fuhrman-lab/academic-kickstart&lt;/code&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Lab Protocol for 515Y/926R universal primers</title>
@@ -169,6 +222,36 @@
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;UPDATE March 2019 - New functionality has been added for automatically slicing and dicing eASV tables according to various pre-set categories (e.g. 16S sequences without chloroplasts or mitochondria, 18S sequences with Metazoan sequences removed; see below for exact categories), and automatically making qiime2 barplots for each of these categories. Also, the repository was cleaned up so that the previous (confusing) way of cloning different branches is no longer used - now you just have clone the master branch and you will find all 3 pipeline variants stored in separate folders.&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Testing</title>
+      <link>https://fuhrmanlab.github.io/post/testing/</link>
+      <pubDate>Mon, 29 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://fuhrmanlab.github.io/post/testing/</guid>
+      <description>&lt;p&gt;BLAH BLAH BLAH&lt;/p&gt;
+
+&lt;p&gt;We use a &amp;ldquo;DIY&amp;rdquo; protocol for preparing amplicons that produces high-quality, quantitative data. We use long primers with Illumina adapters already as part of the primer, meaning that there is no additional adapter ligation step. This ligation step might have some negative effect on the quantitative nature of the PCR assay but it also complicates sample preparation. The only downside of our way of doing things is you have to be really careful to note which forward and reverse primers correspond to which sample. After your PCR is completed, all you need to do is to cleanup with Ampure XP beads, quantify, and pool at equimolar concentrations.&lt;/p&gt;
+
+&lt;p&gt;The latest and greatest version of the protocol can be found here:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.protocols.io/view/fuhrman-lab-515f-926r-16s-and-18s-rrna-gene-sequen-vb7e2rn&#34; target=&#34;_blank&#34;&gt;https://www.protocols.io/view/fuhrman-lab-515f-926r-16s-and-18s-rrna-gene-sequen-vb7e2rn&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Important Notes on Calculating Sequencing Depth&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Thank you to Liv for sharing her experience in this matter!&lt;/p&gt;
+
+&lt;p&gt;We normally sequence our cleaned amplicons on a 2x250 HiSeq RapidRun which gives us ~180 million reads. To provide the requisite &amp;ldquo;random&amp;rdquo; DNA that the sequencer needs, we pool our amplicons with metagenomes. The calculation for this pooling is somewhat counterintuitive, but this is how it has worked in the past:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Create pool that contains 75% amplicons by molarity; the remainder is metagenomes.&lt;/li&gt;
+&lt;li&gt;Put on sequencer, which yields 180 million reads on average.&lt;/li&gt;
+&lt;li&gt;For whatever reason, there is an approximate 3x bias against the amplicons, which means you get approximately 25% of the total 180 million reads back as amplicons, and 75% is the metagenome you added (why? Bob only knows&amp;hellip;).&lt;/li&gt;
+&lt;li&gt;If you add approximately 280 amplicon samples, you will get on the order of 100,000 reads/sample (though there is considerable stochasticity in this number).&lt;/li&gt;
+&lt;li&gt;For our large size fraction (1.2 - 80uM), you can expect to get approximately 10,000 18S reads, 17,000 Chloroplast 16S and 73,000 other 16S (mostly Bacteria/Archaea but also including Mitochondria).&lt;/li&gt;
+&lt;/ol&gt;
 </description>
     </item>
     
