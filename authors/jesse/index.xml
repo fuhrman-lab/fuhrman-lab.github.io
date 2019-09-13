@@ -54,11 +54,15 @@ Then just go in and edit the content in the markdown (.md) file. You can replace
 &lt;li&gt;OK so we gotta do three things: add, commit and push, as follows:&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;&lt;code&gt;git add .&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;git add .&lt;/code&gt; #adds everything&lt;/p&gt;
 
-&lt;p&gt;&lt;code&gt;git commit -m &amp;quot;Adding instructions for updating website&amp;quot;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;git commit -m &amp;quot;Adding instructions for updating website&amp;quot;&lt;/code&gt; #change message to explain what you&amp;rsquo;ve done&lt;/p&gt;
 
-&lt;p&gt;&lt;code&gt;git push origin master&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;git push origin master&lt;/code&gt; #sends your changes to the interwebs&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;The rest is easy! Go to your &lt;strong&gt;academic-kickstart-fuhrmanlab&lt;/strong&gt; repository, and make sure the changes have been successfully pushed. You should see some files have been changed recently, and also that your branch should be several commmits ahead of the fuhrman-lab master branch. Once you&amp;rsquo;ve confirmed this, then initiate a pull request. Follow the prompts, add in any relevant info, and then likely you can automatically merge it with the master branch (we&amp;rsquo;re all part of the same group so we all have access). Once this is done, then just let Jesse know and he can update the website!&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;p&gt;* e.g. &lt;code&gt;git remote set-url origin git@github.com:fuhrman-lab/academic-kickstart&lt;/code&gt;&lt;/p&gt;
 </description>
