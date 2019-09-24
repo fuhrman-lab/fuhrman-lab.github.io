@@ -51,7 +51,7 @@ Then just go in and edit the content in the markdown (.md) file. You can replace
 &lt;li&gt;Now we can add some content! To make it easier for others in the lab to follow, please provide a blog post-like description of the background behind the protocol as well as a link to a PDF or website where the protocol is stored. To make a new post, just copy one of the existing folders in the same way you ddid for your profile, and edit the markdown to create your post. PDFs and other files can be stored in this folder too, and I like to put them in a &amp;lsquo;files&amp;rsquo; subfolder to keep it organized. It then can be linked in your post as follows: &lt;code&gt;[Text you want to show](files/testing.pdf)&lt;/code&gt;, which will render like this: &lt;a href=&#34;files/testing.pdf&#34; target=&#34;_blank&#34;&gt;Text you want to show&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Take a look at your post in your local browser instance, and edit until you think it looks good!&lt;/li&gt;
 &lt;li&gt;Now we&amp;rsquo;re ready to push the changed content to the remote repository. What we&amp;rsquo;re going to push is the markdown content but not the hugo-generated website in the &amp;ldquo;public&amp;rdquo; folder. In academic-kickstart this is already taken care of by the addition of a .gitignore file. Take a look at it yourself to see how it works - this will probably come in handy in your future work.&lt;/li&gt;
-&lt;li&gt;OK so we gotta do three things: add, commit and push, as follows:&lt;/li&gt;
+&lt;li&gt;OK so we gotta do three things: add, commit and push, as follows (make sure you do this from your repository&amp;rsquo;s &lt;strong&gt;base directory&lt;/strong&gt;):&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;&lt;code&gt;git add .&lt;/code&gt; #adds everything&lt;/p&gt;
