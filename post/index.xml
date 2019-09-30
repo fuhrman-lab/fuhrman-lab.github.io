@@ -229,5 +229,23 @@ Then just go in and edit the content in the markdown (.md) file. You can replace
 </description>
     </item>
     
+    <item>
+      <title>SPOT - Ammonium Fluorometric Protocol</title>
+      <link>https://fuhrmanlab.github.io/post/spot_ammonium_fluorometric_protocol/</link>
+      <pubDate>Wed, 03 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://fuhrmanlab.github.io/post/spot_ammonium_fluorometric_protocol/</guid>
+      <description>&lt;p&gt;This is the most recent version of the in-house ammonium fluorometric protocol that uses an ammonium standard (liquid) 10000mg/L to create a 10X working solution, which further gets diluted to create the ammonium standard curve.&lt;/p&gt;
+
+&lt;p&gt;Typically, the curve is made the day before SPOT, and taken on the boat the next day.&lt;/p&gt;
+
+&lt;p&gt;After the samples are collected and the OPA reagent has been added on the boat, the samples are returned to the lab later in the day to be measured, typically after ~3 hours of incubation in the dark.&lt;/p&gt;
+
+&lt;p&gt;It is very important to use MQ water rather than DI water and to be careful about ammonium contamination.&lt;/p&gt;
+
+&lt;p&gt;The latest protocol is found here: &lt;a href=&#34;files/Ammonium_Fluorometric_Protocol_MA_July_3_2019.pdf&#34; target=&#34;_blank&#34;&gt;SPOT Ammonium Fluorometric Protocol July 03 2019 Version MA&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
