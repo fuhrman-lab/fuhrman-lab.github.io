@@ -38,7 +38,8 @@
 &lt;li&gt;Find the &amp;ldquo;academic kickstart&amp;rdquo; repository and click &amp;ldquo;fork&amp;rdquo; at the top of the page. (This creates a copy of this repository that you can work and play with locally on your own machine. You can make any changes you want, test to see how they&amp;rsquo;ll look on the website, then once you&amp;rsquo;re satisfied we&amp;rsquo;ll &amp;ldquo;pull&amp;rdquo; those changes back into the &amp;ldquo;master&amp;rdquo; branch of our group account.)&lt;/li&gt;
 &lt;li&gt;It&amp;rsquo;s probably a good idea to go to &amp;ldquo;settings&amp;rdquo; and rename it to something like &amp;ldquo;academic-kickstart-fuhrmanlab&amp;rdquo; because you may also want to use the same framework to create your own website later on and it&amp;rsquo;s confusing if they&amp;rsquo;re named something similar like &amp;ldquo;academic-kickstart-1&amp;rdquo; and &amp;ldquo;academic-kickstart&amp;rdquo;.&lt;/li&gt;
 &lt;li&gt;Now that you&amp;rsquo;ve got this on your account, clone it locally:
-e.g. &lt;code&gt;git clone git@github.com:fuhrman-lab/academic-kickstart.git Fuhrman_Lab_Website/&lt;/code&gt; #Make sure to use the ssh cloning option (not https), if not you&amp;rsquo;ll have to change it later to use ssh authentication*&lt;/li&gt;
+e.g. &lt;code&gt;git clone git@github.com:fuhrman-lab/academic-kickstart.git Fuhrman_Lab_Website/&lt;/code&gt; #Make sure to use the ssh cloning option (not https), if not you&amp;rsquo;ll have to change it later to use ssh authentication*
+Note that your destination folder (named &lt;code&gt;Fuhrman_Lab_Website&lt;/code&gt; above is your &lt;strong&gt;base repository&lt;/strong&gt; for later steps.&lt;/li&gt;
 &lt;li&gt;Enter the folder and run the following command:
 &lt;code&gt;git submodule update --init --recursive&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Test to make sure hugo is working. Run the following &lt;strong&gt;from the base directory of your repository&lt;/strong&gt;:
@@ -50,11 +51,11 @@ The latter command will set up a local webserver which should listen for changes
 Then just go in and edit the content in the markdown (.md) file. You can replace avatar.jpg with your picture if you want. Add your twitter handle, google scholar, github etc and a small blurb about yourself. That way, when you post something there will be a profile associated with it and people can read about your research etc.&lt;/li&gt;
 &lt;li&gt;Now we can add some content! To make it easier for others in the lab to follow, please provide a blog post-like description of the background behind the protocol as well as a link to a PDF or website where the protocol is stored. To make a new post, just copy one of the existing folders in the same way you ddid for your profile, and edit the markdown to create your post. PDFs and other files can be stored in this folder too, and I like to put them in a &amp;lsquo;files&amp;rsquo; subfolder to keep it organized. It then can be linked in your post as follows: &lt;code&gt;[Text you want to show](files/testing.pdf)&lt;/code&gt;, which will render like this: &lt;a href=&#34;files/testing.pdf&#34; target=&#34;_blank&#34;&gt;Text you want to show&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Take a look at your post in your local browser instance, and edit until you think it looks good!&lt;/li&gt;
+&lt;li&gt;Remove any subfolders called &lt;code&gt;public&lt;/code&gt;, which may appear in folders you have modified, e.g. &lt;code&gt;rm -rf public&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;Now we&amp;rsquo;re ready to push the changed content to the remote repository. What we&amp;rsquo;re going to push is the markdown content but not the hugo-generated website in the &amp;ldquo;public&amp;rdquo; folder. In academic-kickstart this is already taken care of by the addition of a .gitignore file. Take a look at it yourself to see how it works - this will probably come in handy in your future work.&lt;/li&gt;
-&lt;li&gt;OK so we gotta do three things: add, commit and push, as follows (make sure you do this from your repository&amp;rsquo;s &lt;strong&gt;base directory&lt;/strong&gt;):&lt;/li&gt;
+&lt;li&gt;OK so we gotta do three things: add, commit and push, as follows (make sure you do this from your repository&amp;rsquo;s &lt;strong&gt;base directory&lt;/strong&gt;):
+&lt;code&gt;git add .&lt;/code&gt; #adds everything&lt;/li&gt;
 &lt;/ol&gt;
-
-&lt;p&gt;&lt;code&gt;git add .&lt;/code&gt; #adds everything&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;git commit -m &amp;quot;Adding instructions for updating website&amp;quot;&lt;/code&gt; #change message to explain what you&amp;rsquo;ve done&lt;/p&gt;
 

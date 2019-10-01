@@ -538,7 +538,8 @@ Dependencies:  Github (for pushing, pulling, etc) - make sure you&rsquo;re also 
 <li>Find the &ldquo;academic kickstart&rdquo; repository and click &ldquo;fork&rdquo; at the top of the page. (This creates a copy of this repository that you can work and play with locally on your own machine. You can make any changes you want, test to see how they&rsquo;ll look on the website, then once you&rsquo;re satisfied we&rsquo;ll &ldquo;pull&rdquo; those changes back into the &ldquo;master&rdquo; branch of our group account.)</li>
 <li>It&rsquo;s probably a good idea to go to &ldquo;settings&rdquo; and rename it to something like &ldquo;academic-kickstart-fuhrmanlab&rdquo; because you may also want to use the same framework to create your own website later on and it&rsquo;s confusing if they&rsquo;re named something similar like &ldquo;academic-kickstart-1&rdquo; and &ldquo;academic-kickstart&rdquo;.</li>
 <li>Now that you&rsquo;ve got this on your account, clone it locally:
-e.g. <code>git clone git@github.com:fuhrman-lab/academic-kickstart.git Fuhrman_Lab_Website/</code> #Make sure to use the ssh cloning option (not https), if not you&rsquo;ll have to change it later to use ssh authentication*</li>
+e.g. <code>git clone git@github.com:fuhrman-lab/academic-kickstart.git Fuhrman_Lab_Website/</code> #Make sure to use the ssh cloning option (not https), if not you&rsquo;ll have to change it later to use ssh authentication*
+Note that your destination folder (named <code>Fuhrman_Lab_Website</code> above is your <strong>base repository</strong> for later steps.</li>
 <li>Enter the folder and run the following command:
 <code>git submodule update --init --recursive</code></li>
 <li>Test to make sure hugo is working. Run the following <strong>from the base directory of your repository</strong>:
@@ -550,11 +551,11 @@ The latter command will set up a local webserver which should listen for changes
 Then just go in and edit the content in the markdown (.md) file. You can replace avatar.jpg with your picture if you want. Add your twitter handle, google scholar, github etc and a small blurb about yourself. That way, when you post something there will be a profile associated with it and people can read about your research etc.</li>
 <li>Now we can add some content! To make it easier for others in the lab to follow, please provide a blog post-like description of the background behind the protocol as well as a link to a PDF or website where the protocol is stored. To make a new post, just copy one of the existing folders in the same way you ddid for your profile, and edit the markdown to create your post. PDFs and other files can be stored in this folder too, and I like to put them in a &lsquo;files&rsquo; subfolder to keep it organized. It then can be linked in your post as follows: <code>[Text you want to show](files/testing.pdf)</code>, which will render like this: <a href="files/testing.pdf" target="_blank">Text you want to show</a></li>
 <li>Take a look at your post in your local browser instance, and edit until you think it looks good!</li>
+<li>Remove any subfolders called <code>public</code>, which may appear in folders you have modified, e.g. <code>rm -rf public</code>.</li>
 <li>Now we&rsquo;re ready to push the changed content to the remote repository. What we&rsquo;re going to push is the markdown content but not the hugo-generated website in the &ldquo;public&rdquo; folder. In academic-kickstart this is already taken care of by the addition of a .gitignore file. Take a look at it yourself to see how it works - this will probably come in handy in your future work.</li>
-<li>OK so we gotta do three things: add, commit and push, as follows (make sure you do this from your repository&rsquo;s <strong>base directory</strong>):</li>
+<li>OK so we gotta do three things: add, commit and push, as follows (make sure you do this from your repository&rsquo;s <strong>base directory</strong>):
+<code>git add .</code> #adds everything</li>
 </ol>
-
-<p><code>git add .</code> #adds everything</p>
 
 <p><code>git commit -m &quot;Adding instructions for updating website&quot;</code> #change message to explain what you&rsquo;ve done</p>
 

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fuhrman Lab Website - Latest Protocols and News</title>
+    <link>https://fuhrmanlab.github.io/authors/colette/</link>
+    <description>Recent content on Fuhrman Lab Website - Latest Protocols and News</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 24 Sep 2019 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://fuhrmanlab.github.io/authors/colette/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bacterial Production Protocol</title>
+      <link>https://fuhrmanlab.github.io/post/rads_protocol/</link>
+      <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://fuhrmanlab.github.io/post/rads_protocol/</guid>
+      <description>&lt;p&gt;Measurement of bacterial production through the incorporation of tridiated thymidine and leucine. In short, 10mL seawater are collected from each depth and spiked with 5nM isotope. Samples incubate for an hour at sea surface temperature, then the incubation is killed with TCA, and samples are read on a scintillation counter the next day. &lt;a href=&#34;files/Bacterial_Production_Protocol_CFH_9-26-19.pdf&#34; target=&#34;_blank&#34;&gt;Protocol.&lt;/a&gt; &lt;a href=&#34;https://link.springer.com/content/pdf/10.1007/BF00397184.pdf&#34; target=&#34;_blank&#34;&gt;Citation.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This protocol is performed monthly as part of the San Pedro Ocean Time-Series.&lt;/p&gt;
+
+&lt;p&gt;Special thanks to RADs experts Liv and Ella for their help in training me on this method!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
