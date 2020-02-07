@@ -2,53 +2,62 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on Fuhrman Lab Website - Latest Protocols and News</title>
-    <link>https://fuhrmanlab.github.io/authors/</link>
+    <link>https://fuhrman-lab.github.io/authors/</link>
     <description>Recent content in Authors on Fuhrman Lab Website - Latest Protocols and News</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 24 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Dec 2019 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://fuhrmanlab.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://fuhrman-lab.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>https://fuhrmanlab.github.io/authors/colette/</link>
+      <link>https://fuhrman-lab.github.io/authors/rae/</link>
+      <pubDate>Wed, 11 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://fuhrman-lab.github.io/authors/rae/</guid>
+      <description>&lt;p&gt;Rae is a 2nd year PhD student interested in all things microbial ecology. Her current projects explore small-scale microbial community variation and the effects that particulate organic matter influx play on these changes.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://fuhrman-lab.github.io/authors/colette/</link>
       <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://fuhrmanlab.github.io/authors/colette/</guid>
-      <description>&lt;p&gt;Colette is a graduate student studying biogeochemical cycles off the California coast through the San Pedro Ocean Time-series. Please see &lt;a href=&#34;https://dornsife.usc.edu/labs/fuhrmanlab/people/&#34; target=&#34;_blank&#34;&gt;her research profile on Jed Fuhrman&amp;rsquo;s lab website&lt;/a&gt; for more information.&lt;/p&gt;
+      <guid>https://fuhrman-lab.github.io/authors/colette/</guid>
+      <description>&lt;p&gt;Colette is a graduate student studying biogeochemical cycles off the California coast through the San Pedro Ocean Time-series. Please see [her research profile on Jed Fuhrman&amp;rsquo;s lab website] (&lt;a href=&#34;https://dornsife.usc.edu/labs/fuhrmanlab/people/&#34;&gt;https://dornsife.usc.edu/labs/fuhrmanlab/people/&lt;/a&gt;) for more information.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title></title>
-      <link>https://fuhrmanlab.github.io/authors/jesse/</link>
+      <link>https://fuhrman-lab.github.io/authors/jesse/</link>
       <pubDate>Fri, 13 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://fuhrmanlab.github.io/authors/jesse/</guid>
-      <description>&lt;p&gt;Jesse is a postdoc in the Fuhrman lab working on the CBIOMES collaboration. Please see &lt;a href=&#34;https://jcmcnch.github.io&#34; target=&#34;_blank&#34;&gt;jcmcnch.github.io&lt;/a&gt; for more information about his experience and interests.&lt;/p&gt;
+      <guid>https://fuhrman-lab.github.io/authors/jesse/</guid>
+      <description>&lt;p&gt;Jesse is a postdoc in the Fuhrman lab working on the CBIOMES collaboration. Please see &lt;a href=&#34;https://jcmcnch.github.io&#34;&gt;jcmcnch.github.io&lt;/a&gt; for more information about his experience and interests.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title></title>
-      <link>https://fuhrmanlab.github.io/authors/melody/</link>
+      <link>https://fuhrman-lab.github.io/authors/melody/</link>
       <pubDate>Wed, 03 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://fuhrmanlab.github.io/authors/melody/</guid>
+      <guid>https://fuhrman-lab.github.io/authors/melody/</guid>
       <description>&lt;p&gt;Melody is a third year graduate student in the Fuhrman Lab studying interactions between marine viruses and hosts on daily time scales at the Santa Monica Pier.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title></title>
-      <link>https://fuhrmanlab.github.io/authors/admin/</link>
+      <link>https://fuhrman-lab.github.io/authors/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://fuhrmanlab.github.io/authors/admin/</guid>
+      <guid>https://fuhrman-lab.github.io/authors/admin/</guid>
       <description>&lt;p&gt;Research in the Fuhrman Lab focuses on microbial biodiversity and how viruses, bacteria, archaea, protists, and primary producers interact to shape the network of microorganisms functioning in the marine environment. Using field and laboratory experiments in conjunction with molecular, bioinformatic, and statistical tools, we investigate temporal and spatial patterns of microbial productivity and diversity, taking advantage of over 18 years of monthly data from our USC Microbial Observatory at the San Pedro Ocean Time Series (SPOT) as well as other data from around the world. Ongoing research emphasizes the roles of microbial interactions, including those with viruses and protists, on shaping the bacterial and archaeal populations, specifically seeking to link particular organisms within their complex network of associations.&lt;/p&gt;
-
 &lt;p&gt;This website is a central repository for sharing active protocols, both within the Fuhrman lab and to the oustide world. Of particular note are our protocols for the sequencing of PCR amplicons with &lt;em&gt;truly universal&lt;/em&gt; SSU rRNA primers (515Y/926R) that generate amplicons from both 16S and 18S sequences. In practical terms, this means that from a single DNA extract, one can profile the cellular community from &lt;strong&gt;A&lt;/strong&gt;rchaea to meta&lt;strong&gt;Z&lt;/strong&gt;oa. We have also developed a set of scripts that use qiime2 to process the data in a manner specific to these universal primers. In brief, the pipeline splits 16S and 18S informatically (using bbsplit) then denoises with either DADA2 or deblur, then slices and dices the data according to several preset categories. We have also recently included ways to get more information on poorly classified sequences by tweaking parameters in the classification algorithm. The whole pipleine is meant to simplify the process of using qiime2 so that the user has more time to do the important interpretation work that comes after the data have been processed.&lt;/p&gt;
 </description>
     </item>

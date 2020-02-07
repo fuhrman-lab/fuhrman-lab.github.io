@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fuhrman Lab Website - Latest Protocols and News</title>
+    <link>https://fuhrman-lab.github.io/authors/rae/</link>
+    <description>Recent content on Fuhrman Lab Website - Latest Protocols and News</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Dec 2019 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://fuhrman-lab.github.io/authors/rae/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Pico Green DNA Quantification Protocol</title>
+      <link>https://fuhrman-lab.github.io/post/pico_green_dna_quantifiation_protocol/</link>
+      <pubDate>Wed, 11 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://fuhrman-lab.github.io/post/pico_green_dna_quantifiation_protocol/</guid>
+      <description>&lt;p&gt;This is the standard DNA quantification protocol used in the Fuhrman lab. This protocol uses Pico Green dye and a Strtagene qPCR machine.  &lt;a href=&#34;files/Pico_green_DNA_quantification_protocol.pdf&#34;&gt;Protocol here.&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

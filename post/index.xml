@@ -2,53 +2,54 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Fuhrman Lab Website - Latest Protocols and News</title>
-    <link>https://fuhrmanlab.github.io/post/</link>
+    <link>https://fuhrman-lab.github.io/post/</link>
     <description>Recent content in Posts on Fuhrman Lab Website - Latest Protocols and News</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 24 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Dec 2019 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://fuhrmanlab.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://fuhrman-lab.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Pico Green DNA Quantification Protocol</title>
+      <link>https://fuhrman-lab.github.io/post/pico_green_dna_quantifiation_protocol/</link>
+      <pubDate>Wed, 11 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://fuhrman-lab.github.io/post/pico_green_dna_quantifiation_protocol/</guid>
+      <description>&lt;p&gt;This is the standard DNA quantification protocol used in the Fuhrman lab. This protocol uses Pico Green dye and a Strtagene qPCR machine.  &lt;a href=&#34;files/Pico_green_DNA_quantification_protocol.pdf&#34;&gt;Protocol here.&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Bacterial Production Protocol</title>
-      <link>https://fuhrmanlab.github.io/post/rads_protocol/</link>
+      <link>https://fuhrman-lab.github.io/post/rads_protocol/</link>
       <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://fuhrmanlab.github.io/post/rads_protocol/</guid>
-      <description>&lt;p&gt;Measurement of bacterial production through the incorporation of tridiated thymidine and leucine. In short, 10mL seawater are collected from each depth and spiked with 5nM isotope. Samples incubate for an hour at sea surface temperature, then the incubation is killed with TCA, and samples are read on a scintillation counter the next day. &lt;a href=&#34;files/Bacterial_Production_Protocol_CFH_9-26-19.pdf&#34; target=&#34;_blank&#34;&gt;Protocol.&lt;/a&gt; &lt;a href=&#34;https://link.springer.com/content/pdf/10.1007/BF00397184.pdf&#34; target=&#34;_blank&#34;&gt;Citation.&lt;/a&gt;&lt;/p&gt;
-
+      <guid>https://fuhrman-lab.github.io/post/rads_protocol/</guid>
+      <description>&lt;p&gt;Measurement of bacterial production through the incorporation of tridiated thymidine and leucine. In short, 10mL seawater are collected from each depth and spiked with 5nM isotope. Samples incubate for an hour at sea surface temperature, then the incubation is killed with TCA, and samples are read on a scintillation counter the next day. &lt;a href=&#34;files/Bacterial_Production_Protocol_CFH_9-26-19.pdf&#34;&gt;Protocol.&lt;/a&gt; &lt;a href=&#34;https://link.springer.com/content/pdf/10.1007/BF00397184.pdf&#34;&gt;Citation.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;This protocol is performed monthly as part of the San Pedro Ocean Time-Series.&lt;/p&gt;
-
 &lt;p&gt;Special thanks to RADs experts Liv and Ella for their help in training me on this method!&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Adding Content (e.g. protocols/blog posts) to the Lab Website</title>
-      <link>https://fuhrmanlab.github.io/post/adding_web_content/</link>
+      <link>https://fuhrman-lab.github.io/post/adding_web_content/</link>
       <pubDate>Fri, 13 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://fuhrmanlab.github.io/post/adding_web_content/</guid>
-      <description>
-
-&lt;h2 id=&#34;preamble&#34;&gt;Preamble:&lt;/h2&gt;
-
+      <guid>https://fuhrman-lab.github.io/post/adding_web_content/</guid>
+      <description>&lt;h2 id=&#34;preamble&#34;&gt;Preamble:&lt;/h2&gt;
 &lt;p&gt;At first, this may seem like an excessively complicated way of updating a website, but it actually will teach you how to use github. By the end of it you should be able to clone, fork, and merge like a pro!&lt;/p&gt;
-
 &lt;h2 id=&#34;dependencies&#34;&gt;Dependencies:&lt;/h2&gt;
-
 &lt;ul&gt;
 &lt;li&gt;Github (for pushing, pulling, etc) - make sure you&amp;rsquo;re also a member of &amp;ldquo;fuhrman-lab&amp;rdquo; group on github&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://gohugo.io/&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; (for generating a html website from markdown content)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; (for generating a html website from markdown content)&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;h2 id=&#34;instructions&#34;&gt;Instructions:&lt;/h2&gt;
-
 &lt;ol&gt;
-&lt;li&gt;Go to &lt;a href=&#34;https://github.com&#34; target=&#34;_blank&#34;&gt;github&lt;/a&gt;, make sure you&amp;rsquo;re logged in.&lt;/li&gt;
-&lt;li&gt;Once you&amp;rsquo;re logged in, go to our &amp;ldquo;group&amp;rdquo; account &lt;a href=&#34;https://github.com/fuhrman-lab&#34; target=&#34;_blank&#34;&gt;https://github.com/fuhrman-lab&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Go to &lt;a href=&#34;https://github.com&#34;&gt;github&lt;/a&gt;, make sure you&amp;rsquo;re logged in.&lt;/li&gt;
+&lt;li&gt;Once you&amp;rsquo;re logged in, go to our &amp;ldquo;group&amp;rdquo; account &lt;a href=&#34;https://github.com/fuhrman-lab&#34;&gt;https://github.com/fuhrman-lab&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Find the &amp;ldquo;academic kickstart&amp;rdquo; repository and click &amp;ldquo;fork&amp;rdquo; at the top of the page. (This creates a copy of this repository that you can work and play with locally on your own machine. You can make any changes you want, test to see how they&amp;rsquo;ll look on the website, then once you&amp;rsquo;re satisfied we&amp;rsquo;ll &amp;ldquo;pull&amp;rdquo; those changes back into the &amp;ldquo;master&amp;rdquo; branch of our group account.)&lt;/li&gt;
 &lt;li&gt;It&amp;rsquo;s probably a good idea to go to &amp;ldquo;settings&amp;rdquo; and rename it to something like &amp;ldquo;academic-kickstart-fuhrmanlab&amp;rdquo; because you may also want to use the same framework to create your own website later on and it&amp;rsquo;s confusing if they&amp;rsquo;re named something similar like &amp;ldquo;academic-kickstart-1&amp;rdquo; and &amp;ldquo;academic-kickstart&amp;rdquo;.&lt;/li&gt;
 &lt;li&gt;Now that you&amp;rsquo;ve got this on your account, clone it locally:
@@ -63,44 +64,34 @@ The latter command will set up a local webserver which should listen for changes
 &lt;li&gt;The first thing you want to set up is a profile for yourself as an author. Go to &lt;code&gt;content/authors&lt;/code&gt; and create a new folder for yourself. You can just copy someone else&amp;rsquo;s folder as follows:
 &lt;code&gt;cp -r jesse yourname&lt;/code&gt;
 Then just go in and edit the content in the markdown (.md) file. You can replace avatar.jpg with your picture if you want. Add your twitter handle, google scholar, github etc and a small blurb about yourself. That way, when you post something there will be a profile associated with it and people can read about your research etc.&lt;/li&gt;
-&lt;li&gt;Now we can add some content! To make it easier for others in the lab to follow, please provide a blog post-like description of the background behind the protocol as well as a link to a PDF or website where the protocol is stored. To make a new post, just copy one of the existing folders in the same way you ddid for your profile, and edit the markdown to create your post. PDFs and other files can be stored in this folder too, and I like to put them in a &amp;lsquo;files&amp;rsquo; subfolder to keep it organized. It then can be linked in your post as follows: &lt;code&gt;[Text you want to show](files/testing.pdf)&lt;/code&gt;, which will render like this: &lt;a href=&#34;files/testing.pdf&#34; target=&#34;_blank&#34;&gt;Text you want to show&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Now we can add some content! To make it easier for others in the lab to follow, please provide a blog post-like description of the background behind the protocol as well as a link to a PDF or website where the protocol is stored. To make a new post, just copy one of the existing folders in the same way you ddid for your profile, and edit the markdown to create your post. PDFs and other files can be stored in this folder too, and I like to put them in a &amp;lsquo;files&amp;rsquo; subfolder to keep it organized. It then can be linked in your post as follows: &lt;code&gt;[Text you want to show](files/testing.pdf)&lt;/code&gt;, which will render like this: &lt;a href=&#34;files/testing.pdf&#34;&gt;Text you want to show&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Take a look at your post in your local browser instance, and edit until you think it looks good!&lt;/li&gt;
 &lt;li&gt;Remove any subfolders called &lt;code&gt;public&lt;/code&gt;, which may appear in folders you have modified, e.g. &lt;code&gt;rm -rf public&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;Now we&amp;rsquo;re ready to push the changed content to the remote repository. What we&amp;rsquo;re going to push is the markdown content but not the hugo-generated website in the &amp;ldquo;public&amp;rdquo; folder. In academic-kickstart this is already taken care of by the addition of a .gitignore file. Take a look at it yourself to see how it works - this will probably come in handy in your future work.&lt;/li&gt;
 &lt;li&gt;OK so we gotta do three things: add, commit and push, as follows (make sure you do this from your repository&amp;rsquo;s &lt;strong&gt;base directory&lt;/strong&gt;):
 &lt;code&gt;git add .&lt;/code&gt; #adds everything&lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;p&gt;&lt;code&gt;git commit -m &amp;quot;Adding instructions for updating website&amp;quot;&lt;/code&gt; #change message to explain what you&amp;rsquo;ve done&lt;/p&gt;
-
 &lt;p&gt;&lt;code&gt;git push origin master&lt;/code&gt; #sends your changes to the interwebs&lt;/p&gt;
-
-&lt;ol&gt;
+&lt;ol start=&#34;14&#34;&gt;
 &lt;li&gt;The rest is easy! Go to your &lt;strong&gt;academic-kickstart-fuhrmanlab&lt;/strong&gt; repository, and make sure the changes have been successfully pushed. You should see some files have been changed recently, and also that your branch should be several commmits ahead of the fuhrman-lab master branch. Once you&amp;rsquo;ve confirmed this, then initiate a pull request. Follow the prompts, add in any relevant info, and then likely you can automatically merge it with the master branch (we&amp;rsquo;re all part of the same group so we all have access). Once this is done, then just let Jesse know and he can update the website!&lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;p&gt;* e.g. &lt;code&gt;git remote set-url origin git@github.com:fuhrman-lab/academic-kickstart&lt;/code&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Lab Protocol for 515Y/926R universal primers</title>
-      <link>https://fuhrmanlab.github.io/post/515y-926r-lab-protocol/</link>
+      <link>https://fuhrman-lab.github.io/post/515y-926r-lab-protocol/</link>
       <pubDate>Mon, 29 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://fuhrmanlab.github.io/post/515y-926r-lab-protocol/</guid>
+      <guid>https://fuhrman-lab.github.io/post/515y-926r-lab-protocol/</guid>
       <description>&lt;p&gt;We use a &amp;ldquo;DIY&amp;rdquo; protocol for preparing amplicons that produces high-quality, quantitative data. We use long primers with Illumina adapters already as part of the primer, meaning that there is no additional adapter ligation step. This ligation step might have some negative effect on the quantitative nature of the PCR assay but it also complicates sample preparation. The only downside of our way of doing things is you have to be really careful to note which forward and reverse primers correspond to which sample. After your PCR is completed, all you need to do is to cleanup with Ampure XP beads, quantify, and pool at equimolar concentrations.&lt;/p&gt;
-
 &lt;p&gt;The latest and greatest version of the protocol can be found here:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.protocols.io/view/fuhrman-lab-515f-926r-16s-and-18s-rrna-gene-sequen-vb7e2rn&#34; target=&#34;_blank&#34;&gt;https://www.protocols.io/view/fuhrman-lab-515f-926r-16s-and-18s-rrna-gene-sequen-vb7e2rn&lt;/a&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;a href=&#34;https://www.protocols.io/view/fuhrman-lab-515f-926r-16s-and-18s-rrna-gene-sequen-vb7e2rn&#34;&gt;https://www.protocols.io/view/fuhrman-lab-515f-926r-16s-and-18s-rrna-gene-sequen-vb7e2rn&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Important Notes on Calculating Sequencing Depth&lt;/strong&gt;&lt;/p&gt;
-
 &lt;p&gt;Thank you to Liv for sharing her experience in this matter!&lt;/p&gt;
-
 &lt;p&gt;We normally sequence our cleaned amplicons on a 2x250 HiSeq RapidRun which gives us ~180 million reads. To provide the requisite &amp;ldquo;random&amp;rdquo; DNA that the sequencer needs, we pool our amplicons with metagenomes. The calculation for this pooling is somewhat counterintuitive, but this is how it has worked in the past:&lt;/p&gt;
-
 &lt;ol&gt;
 &lt;li&gt;Create pool that contains 75% amplicons by molarity; the remainder is metagenomes.&lt;/li&gt;
 &lt;li&gt;Put on sequencer, which yields 180 million reads on average.&lt;/li&gt;
@@ -113,152 +104,124 @@ Then just go in and edit the content in the markdown (.md) file. You can replace
     
     <item>
       <title>qiime2 pipeline for 515Y/926R primers</title>
-      <link>https://fuhrmanlab.github.io/post/515y-926r-qiime2-pipeline/</link>
+      <link>https://fuhrman-lab.github.io/post/515y-926r-qiime2-pipeline/</link>
       <pubDate>Mon, 29 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://fuhrmanlab.github.io/post/515y-926r-qiime2-pipeline/</guid>
+      <guid>https://fuhrman-lab.github.io/post/515y-926r-qiime2-pipeline/</guid>
       <description>&lt;p&gt;This is a collection of scripts for analyzing mixed 16S/18S amplicon sequences using bbtools, qiime2, DADA2, Deblur, biom, BLAST, and other tools. They are wrappers of a wrapper (qiime2), and are designed to make the in silico workflow for the 515Y/926R primer set easier, reproducible, and more accessible.&lt;/p&gt;
-
 &lt;p&gt;The main difference between this pipeline and standard workflows is that it contains an initial 16S/18S splitting step, which is accomplished using bbsplit against curated 16S / 18S databases derived from SILVA132 and PR2. Other notable differences include:&lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;Semi-automated methods to validate the performance of your denoising algorithm with the Fuhrman Lab mock communities&lt;/li&gt;
 &lt;li&gt;20% mismatches allowed in the primer removal step, meaning taxa that are amplified despite primer mismatches will be retained in the results&lt;/li&gt;
 &lt;li&gt;An automated workflow for processing 18S sequences that do not overlap&lt;/li&gt;
 &lt;li&gt;Automatic classification/splitting as noted above&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;Scripts are written with python or bash, and are designed for the pre-set conda environments on kraken.usc.edu. However, they could easily be used elsewhere by installing the conda environment for qiime2 specified in the scripts (currently qiime2-2018.8) and a separate environment (called bbmap-env) that has Brian Bushnell&amp;rsquo;s Bestus Bioinformaticus Tools installed.&lt;/p&gt;
-
 &lt;p&gt;To start using them, just clone the repository as follows:&lt;/p&gt;
-
 &lt;p&gt;&lt;code&gt;git clone https://github.com/jcmcnch/eASV-pipeline-for-515Y-926R.git&lt;/code&gt;&lt;/p&gt;
-
 &lt;p&gt;The repository is split into a couple of different pipelines with minor differences:&lt;/p&gt;
-
 &lt;ol&gt;
 &lt;li&gt;Default Fuhrman lab pipeline (&amp;ldquo;DADA2-pipeline&amp;rdquo;), set up for use with kraken.usc.edu. A protocol is available here:&lt;/li&gt;
 &lt;/ol&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.protocols.io/private/C0F9404AB3DAEC96683F142351CEF59C&#34; target=&#34;_blank&#34;&gt;https://www.protocols.io/private/C0F9404AB3DAEC96683F142351CEF59C&lt;/a&gt;&lt;/p&gt;
-
-&lt;ol&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.protocols.io/private/C0F9404AB3DAEC96683F142351CEF59C&#34;&gt;https://www.protocols.io/private/C0F9404AB3DAEC96683F142351CEF59C&lt;/a&gt;&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
 &lt;li&gt;Alternative Fuhrman lab pipeline (&amp;ldquo;deblur-pipeline&amp;rdquo;), set up for use with kraken.usc.edu. Protocol here:&lt;/li&gt;
 &lt;/ol&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.protocols.io/private/6C81EC4BC2074A76D7ACF80E2F0603B7&#34; target=&#34;_blank&#34;&gt;https://www.protocols.io/private/6C81EC4BC2074A76D7ACF80E2F0603B7&lt;/a&gt;&lt;/p&gt;
-
-&lt;ol&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.protocols.io/private/6C81EC4BC2074A76D7ACF80E2F0603B7&#34;&gt;https://www.protocols.io/private/6C81EC4BC2074A76D7ACF80E2F0603B7&lt;/a&gt;&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
 &lt;li&gt;Apply to your own primers/pipeline (&amp;ldquo;deblur-template-pipeline&amp;rdquo;). If you&amp;rsquo;d like to use these scripts as a starting point for your analysis but are not using the Fuhrman lab primers / mock communities, we think it&amp;rsquo;s safer to use Deblur*. This workflow is basically the same as our &amp;ldquo;in-house&amp;rdquo; pipeline but with some minor additions to make the scripts more generally applicable (e.g. they include some templates for preparing your own classfication database):&lt;/li&gt;
 &lt;/ol&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.protocols.io/private/7714BDE068BA6E75FF2B89082009590F&#34; target=&#34;_blank&#34;&gt;https://www.protocols.io/private/7714BDE068BA6E75FF2B89082009590F&lt;/a&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;a href=&#34;https://www.protocols.io/private/7714BDE068BA6E75FF2B89082009590F&#34;&gt;https://www.protocols.io/private/7714BDE068BA6E75FF2B89082009590F&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;If you&amp;rsquo;re doing the bbsplit step, and want to use our PROK/EUK databases (curated from SILVA 132), you can find them here:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/14zL-cudiNAqsGbCyVa3DWlSsKxr64CIa/view?usp=sharing&#34; target=&#34;_blank&#34;&gt;https://drive.google.com/file/d/14zL-cudiNAqsGbCyVa3DWlSsKxr64CIa/view?usp=sharing&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/19Bq_g1Saqe6hASAcKFK3KnIVc9eFp1qp/view?usp=sharing&#34; target=&#34;_blank&#34;&gt;https://drive.google.com/file/d/19Bq_g1Saqe6hASAcKFK3KnIVc9eFp1qp/view?usp=sharing&lt;/a&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/14zL-cudiNAqsGbCyVa3DWlSsKxr64CIa/view?usp=sharing&#34;&gt;https://drive.google.com/file/d/14zL-cudiNAqsGbCyVa3DWlSsKxr64CIa/view?usp=sharing&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/19Bq_g1Saqe6hASAcKFK3KnIVc9eFp1qp/view?usp=sharing&#34;&gt;https://drive.google.com/file/d/19Bq_g1Saqe6hASAcKFK3KnIVc9eFp1qp/view?usp=sharing&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;To build the splitting database (it&amp;rsquo;s already done on kraken.usc.edu), run the following command:&lt;/p&gt;
-
 &lt;p&gt;&lt;code&gt;bbsplit.sh build=1 ref=SILVA_132_and_PR2_EUK.cdhit95pc.fasta,SILVA_132_PROK.cdhit95pc.fasta path=EUK-PROK-bbsplit-db&lt;/code&gt;&lt;/p&gt;
-
 &lt;p&gt;Then edit the splitting script (&amp;ldquo;01-sort-16S-18S-bbsplit.sh&amp;rdquo;) so that it points to the full path of the directory specified above in the path part of the command.&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;CLASSIFIERS (Trained on the 515Y/926R primer pair)&lt;/strong&gt;&lt;/p&gt;
-
 &lt;p&gt;The default taxonomy we use is SILVA132. A pre-trained classifier for the 515Y/926R primer pair can be found here (just point the scripts to where you downloaded the file on your server/laptop):&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/1-ep-NisSqHc-pOgLxQVDVDsXnqgXEYpB/view?usp=sharing&#34; target=&#34;_blank&#34;&gt;https://drive.google.com/file/d/1-ep-NisSqHc-pOgLxQVDVDsXnqgXEYpB/view?usp=sharing&lt;/a&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/1-ep-NisSqHc-pOgLxQVDVDsXnqgXEYpB/view?usp=sharing&#34;&gt;https://drive.google.com/file/d/1-ep-NisSqHc-pOgLxQVDVDsXnqgXEYpB/view?usp=sharing&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;You&amp;rsquo;ll also need the PhytoRef classifier for better chloroplast assignments. Just make sure to point the splitting/reclassification script to the location where you downloaded the qza file:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/1CFg5IRVyQlbOWQ_F2O-Riv0Ar08OMbW0/view?usp=sharing&#34; target=&#34;_blank&#34;&gt;https://drive.google.com/file/d/1CFg5IRVyQlbOWQ_F2O-Riv0Ar08OMbW0/view?usp=sharing&lt;/a&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/1CFg5IRVyQlbOWQ_F2O-Riv0Ar08OMbW0/view?usp=sharing&#34;&gt;https://drive.google.com/file/d/1CFg5IRVyQlbOWQ_F2O-Riv0Ar08OMbW0/view?usp=sharing&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;ve also included a PR2 classification step so you can compare results to SILVA 132 (big thanks to Niu Du who shared the artifacts on the qiime2 forum). Make sure to also change the path location in the appropriate splitting/reclassification script:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/190tihIuhZ_rf1TCkzYTOn-9F32FJ5cAD/view?usp=sharing&#34; target=&#34;_blank&#34;&gt;https://drive.google.com/file/d/190tihIuhZ_rf1TCkzYTOn-9F32FJ5cAD/view?usp=sharing&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;If you need to make your own classifiers for PR2 and PhytoRef (i.e. you&amp;rsquo;re not using the same primers), you can use Niu Du&amp;rsquo;s pre-made artifacts found here: &lt;a href=&#34;https://github.com/ndu-UCSD/Oceanic_database&#34; target=&#34;_blank&#34;&gt;https://github.com/ndu-UCSD/Oceanic_database&lt;/a&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/190tihIuhZ_rf1TCkzYTOn-9F32FJ5cAD/view?usp=sharing&#34;&gt;https://drive.google.com/file/d/190tihIuhZ_rf1TCkzYTOn-9F32FJ5cAD/view?usp=sharing&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you need to make your own classifiers for PR2 and PhytoRef (i.e. you&amp;rsquo;re not using the same primers), you can use Niu Du&amp;rsquo;s pre-made artifacts found here: &lt;a href=&#34;https://github.com/ndu-UCSD/Oceanic_database&#34;&gt;https://github.com/ndu-UCSD/Oceanic_database&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;If you need to make your own classifier for SILVA132 (i.e. you&amp;rsquo;re not using our primers), you can use this pre-imported sequence artifact for the 97% OTUs provided by SILVA (just subset and train for your primers according to the scripts on Niu Du&amp;rsquo;s github page or the &amp;ldquo;T&amp;rdquo;-prefaced scripts in the &amp;ldquo;deblur-template-pipeline&amp;rdquo;):&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/1rEfiuvlECUsUX9gPcv-2riAsb_8EI7Z9/view?usp=sharing&#34; target=&#34;_blank&#34;&gt;https://drive.google.com/file/d/1rEfiuvlECUsUX9gPcv-2riAsb_8EI7Z9/view?usp=sharing&lt;/a&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/1rEfiuvlECUsUX9gPcv-2riAsb_8EI7Z9/view?usp=sharing&#34;&gt;https://drive.google.com/file/d/1rEfiuvlECUsUX9gPcv-2riAsb_8EI7Z9/view?usp=sharing&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;You&amp;rsquo;ll also need the associated taxonomy:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/1iXYwwZky8V2HfwXh3kMTnG_7Y5sSYBtP/view?usp=sharing&#34; target=&#34;_blank&#34;&gt;https://drive.google.com/file/d/1iXYwwZky8V2HfwXh3kMTnG_7Y5sSYBtP/view?usp=sharing&lt;/a&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/1iXYwwZky8V2HfwXh3kMTnG_7Y5sSYBtP/view?usp=sharing&#34;&gt;https://drive.google.com/file/d/1iXYwwZky8V2HfwXh3kMTnG_7Y5sSYBtP/view?usp=sharing&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;*While DADA2 is superior to Deblur in terms of sequence recovery (especially for our Eukaryotic amplicons - ~80% DADA2 vs ~20% Deblur), we have noticed that it creates spurious eASVs on occasion (a spurious eASV is defined here as an eASV with 1 mismatch to the reference mock community sequence that cannot be accounted for by sample bleedthrough). This seems to be either due to noisy data (e.g. 2x300 PE reads) or due to something that trips up the error model (i.e. it happened once when we had in extra mocks from the same run but different lane that had more reads on average than the first lane). For us, this isn&amp;rsquo;t necessarily a problem since we use the mocks as a way to validate our results, and we can tweak parameters to avoid these potential artifacts. But for those who don&amp;rsquo;t have access to the mocks, or those who are working with data downloaded from the SRA, then it will be easier to use Deblur.&lt;/p&gt;
-
 &lt;p&gt;Current automatic splitting/plotting capabilities (a tsv table and graph will be produced for each of these categories):&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;16S&lt;/strong&gt; (all filtering steps based on SILVA132 classifications, chloroplasts always classified with PhytoRef):&lt;/p&gt;
-
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;16s excluding cyanobacteria, chloroplasts and mitochondria&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;16S excluding Archaea&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Archaea only&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;All prokaryotes (excluding chloroplasts/mitochondria)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;16S with mitochondria subtracted&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;16S with chloroplasts subtracted&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Only cyanobacteria&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Cyanobacteria + chloroplasts&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Only chloroplasts&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Only mitochondria&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;16s excluding cyanobacteria, chloroplasts and mitochondria&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;16S excluding Archaea&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Archaea only&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;All prokaryotes (excluding chloroplasts/mitochondria)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;16S with mitochondria subtracted&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;16S with chloroplasts subtracted&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Only cyanobacteria&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Cyanobacteria + chloroplasts&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Only chloroplasts&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Only mitochondria&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;&lt;strong&gt;18S&lt;/strong&gt;:&lt;/p&gt;
-
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;All 18S sequences, classified using SILVA132&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;All 18S sequences, classified using PR2&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;18S sequences with Metazoa subtracted according to SILVA132 classifications&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;18S sequences with Metazoa subtracted according to PR2 classifications&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;All 18S sequences, classified using SILVA132&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;All 18S sequences, classified using PR2&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;18S sequences with Metazoa subtracted according to SILVA132 classifications&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;18S sequences with Metazoa subtracted according to PR2 classifications&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;&lt;strong&gt;UPDATE July 2019 - The purpose of these additional scripts is to easily compare the classifications at different confidence levels all in one file known as a “Lookup Table”. This is particularly useful in instances where the default classification classifies the eASV as “Bacteria”, but a less stringent confidence level might classify that eASV further as actually a Mitochondrial sequence.&lt;/strong&gt;&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;One of the options of the qiime feature-classifier classify-sklearn step is to designate the &amp;ndash;p-confidence threshold, which limits the depth for taxonomic assignments. The default setting is 0.7, indicating that the classifier is at least 70% confident in its classification. New scripts were added to the pipeline to re-run the classification step at less stringent confidence levels (0.5, 0.3, and -1). A &amp;ndash;p-confidence value set at -1 disables the confidence calculation.&lt;/strong&gt;&lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;EUK Scripts: E19-E22&lt;/li&gt;
 &lt;li&gt;PROK Scripts: P14-P17&lt;/li&gt;
 &lt;li&gt;For the DADA2 version of the pipeline only*&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;&lt;strong&gt;UPDATE March 2019 - New functionality has been added for automatically slicing and dicing eASV tables according to various pre-set categories (e.g. 16S sequences without chloroplasts or mitochondria, 18S sequences with Metazoan sequences removed; see below for exact categories), and automatically making qiime2 barplots for each of these categories. Also, the repository was cleaned up so that the previous (confusing) way of cloning different branches is no longer used - now you just have clone the master branch and you will find all 3 pipeline variants stored in separate folders.&lt;/strong&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>SPOT - Ammonium Fluorometric Protocol</title>
-      <link>https://fuhrmanlab.github.io/post/spot_ammonium_fluorometric_protocol/</link>
+      <link>https://fuhrman-lab.github.io/post/spot_ammonium_fluorometric_protocol/</link>
       <pubDate>Wed, 03 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://fuhrmanlab.github.io/post/spot_ammonium_fluorometric_protocol/</guid>
+      <guid>https://fuhrman-lab.github.io/post/spot_ammonium_fluorometric_protocol/</guid>
       <description>&lt;p&gt;This is the most recent version of the in-house ammonium fluorometric protocol that uses an ammonium standard (liquid) 10000mg/L to create a 10X working solution, which further gets diluted to create the ammonium standard curve.&lt;/p&gt;
-
 &lt;p&gt;Typically, the curve is made the day before SPOT, and taken on the boat the next day.&lt;/p&gt;
-
 &lt;p&gt;After the samples are collected and the OPA reagent has been added on the boat, the samples are returned to the lab later in the day to be measured, typically after ~3 hours of incubation in the dark.&lt;/p&gt;
-
 &lt;p&gt;It is very important to use MQ water rather than DI water and to be careful about ammonium contamination.&lt;/p&gt;
-
-&lt;p&gt;The latest protocol is found here: &lt;a href=&#34;files/Ammonium_Fluorometric_Protocol_MA_July_3_2019.pdf&#34; target=&#34;_blank&#34;&gt;SPOT Ammonium Fluorometric Protocol July 03 2019 Version MA&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The latest protocol is found here: [SPOT Ammonium Fluorometric Protocol July 03 2019 Version MA] (files/Ammonium_Fluorometric_Protocol_MA_July_3_2019.pdf)&lt;/p&gt;
 </description>
     </item>
     

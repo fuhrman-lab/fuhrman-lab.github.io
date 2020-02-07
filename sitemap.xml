@@ -1,76 +1,86 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://fuhrmanlab.github.io/authors/colette/</loc>
+    <loc>https://fuhrman-lab.github.io/authors/rae/</loc>
+    <lastmod>2019-12-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fuhrman-lab.github.io/authors/</loc>
+    <lastmod>2019-12-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fuhrman-lab.github.io/</loc>
+    <lastmod>2019-12-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fuhrman-lab.github.io/post/pico_green_dna_quantifiation_protocol/</loc>
+    <lastmod>2019-12-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fuhrman-lab.github.io/post/</loc>
+    <lastmod>2019-12-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fuhrman-lab.github.io/authors/colette/</loc>
     <lastmod>2019-09-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fuhrmanlab.github.io/authors/</loc>
+    <loc>https://fuhrman-lab.github.io/post/rads_protocol/</loc>
     <lastmod>2019-09-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fuhrmanlab.github.io/post/rads_protocol/</loc>
-    <lastmod>2019-09-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fuhrmanlab.github.io/</loc>
-    <lastmod>2019-09-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fuhrmanlab.github.io/post/</loc>
-    <lastmod>2019-09-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fuhrmanlab.github.io/authors/jesse/</loc>
+    <loc>https://fuhrman-lab.github.io/authors/jesse/</loc>
     <lastmod>2019-09-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fuhrmanlab.github.io/post/adding_web_content/</loc>
+    <loc>https://fuhrman-lab.github.io/post/adding_web_content/</loc>
     <lastmod>2019-09-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fuhrmanlab.github.io/post/515y-926r-lab-protocol/</loc>
+    <loc>https://fuhrman-lab.github.io/post/515y-926r-lab-protocol/</loc>
     <lastmod>2019-07-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fuhrmanlab.github.io/post/515y-926r-qiime2-pipeline/</loc>
+    <loc>https://fuhrman-lab.github.io/post/515y-926r-qiime2-pipeline/</loc>
     <lastmod>2019-07-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fuhrmanlab.github.io/authors/melody/</loc>
+    <loc>https://fuhrman-lab.github.io/authors/melody/</loc>
     <lastmod>2019-07-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fuhrmanlab.github.io/post/spot_ammonium_fluorometric_protocol/</loc>
+    <loc>https://fuhrman-lab.github.io/post/spot_ammonium_fluorometric_protocol/</loc>
     <lastmod>2019-07-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fuhrmanlab.github.io/authors/admin/</loc>
+    <loc>https://fuhrman-lab.github.io/authors/admin/</loc>
   </url>
   
   <url>
-    <loc>https://fuhrmanlab.github.io/categories/</loc>
+    <loc>https://fuhrman-lab.github.io/categories/</loc>
   </url>
   
   <url>
-    <loc>https://fuhrmanlab.github.io/publication_types/</loc>
+    <loc>https://fuhrman-lab.github.io/publication_types/</loc>
   </url>
   
   <url>
-    <loc>https://fuhrmanlab.github.io/tags/</loc>
+    <loc>https://fuhrman-lab.github.io/tags/</loc>
   </url>
   
 </urlset>

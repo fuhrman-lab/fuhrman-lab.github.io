@@ -2,30 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fuhrman Lab Website - Latest Protocols and News</title>
-    <link>https://fuhrmanlab.github.io/authors/melody/</link>
+    <link>https://fuhrman-lab.github.io/authors/melody/</link>
     <description>Recent content on Fuhrman Lab Website - Latest Protocols and News</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 03 Jul 2019 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://fuhrmanlab.github.io/authors/melody/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://fuhrman-lab.github.io/authors/melody/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>SPOT - Ammonium Fluorometric Protocol</title>
-      <link>https://fuhrmanlab.github.io/post/spot_ammonium_fluorometric_protocol/</link>
+      <link>https://fuhrman-lab.github.io/post/spot_ammonium_fluorometric_protocol/</link>
       <pubDate>Wed, 03 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://fuhrmanlab.github.io/post/spot_ammonium_fluorometric_protocol/</guid>
+      <guid>https://fuhrman-lab.github.io/post/spot_ammonium_fluorometric_protocol/</guid>
       <description>&lt;p&gt;This is the most recent version of the in-house ammonium fluorometric protocol that uses an ammonium standard (liquid) 10000mg/L to create a 10X working solution, which further gets diluted to create the ammonium standard curve.&lt;/p&gt;
-
 &lt;p&gt;Typically, the curve is made the day before SPOT, and taken on the boat the next day.&lt;/p&gt;
-
 &lt;p&gt;After the samples are collected and the OPA reagent has been added on the boat, the samples are returned to the lab later in the day to be measured, typically after ~3 hours of incubation in the dark.&lt;/p&gt;
-
 &lt;p&gt;It is very important to use MQ water rather than DI water and to be careful about ammonium contamination.&lt;/p&gt;
-
-&lt;p&gt;The latest protocol is found here: &lt;a href=&#34;files/Ammonium_Fluorometric_Protocol_MA_July_3_2019.pdf&#34; target=&#34;_blank&#34;&gt;SPOT Ammonium Fluorometric Protocol July 03 2019 Version MA&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The latest protocol is found here: [SPOT Ammonium Fluorometric Protocol July 03 2019 Version MA] (files/Ammonium_Fluorometric_Protocol_MA_July_3_2019.pdf)&lt;/p&gt;
 </description>
     </item>
     
